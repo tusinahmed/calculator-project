@@ -1,0 +1,40 @@
+.calculator{
+    height: 360px;
+    width: 280px;
+    background-color: #e8e8e8;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    border-radius: 20px;
+   
+
+}
+
+.main-bar{
+    margin-bottom: 20px;
+    text-align: right;
+    border-radius: 20px;
+}
+
+.btn{
+    font-size: 20px;
+    cursor: pointer;
+    width: 61px;
+    border-radius: 20px;
+    
+    
+}
+
+.line{
+    margin-bottom: 10px;
+}
+
+.last input{
+    width: 126px;
+}
+#ip{
+    font-size: 23px;
+    font-weight: bold;
+}

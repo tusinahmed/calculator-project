@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+
+        function calculator(x){
+            form.display.value =  form.display.value + x;
+
+        }
+
+    </script>
+        
+</head>
+<body>
+
+    <div class="calculator">
+        <form action="" name="form">
+            <input type="text" value="0" class="form-control main-bar" name="display" id="ip">
+            <div class="button-area">
+                <div class="line">
+                    <input type="button" name="btn" value="7" class="btn btn-primary" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="8" class="btn btn-primary" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="9" class="btn btn-primary" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="+" class="btn btn-warning" onclick="calculator(this.value)">
+
+                </div>
+                <div class="line">
+                    <input type="button" name="btn" value="4" class="btn btn-primary" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="5" class="btn btn-primary" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="6" class="btn btn-primary" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="-" class="btn btn-warning" onclick="calculator(this.value)">
+
+                </div>
+                <div class="line">
+                    <input type="button" name="btn" value="1" class="btn btn-primary" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="2" class="btn btn-primary" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="3" class="btn btn-primary" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="*" class="btn btn-warning" onclick="calculator(this.value)">
+
+                </div>
+                <div class="line">
+                    <input type="button" name="btn" value="0" class="btn btn-primary" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="00" class="btn btn-primary" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="." class="btn btn-primary" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="/" class="btn btn-warning" onclick="calculator(this.value)">
+
+                </div>
+
+                <div class="last">
+                    <input type="button" name="btn" value="c" class="btn btn-warning" onclick="display.value = null">
+                    <input type="button" name="btn" value="=" class="btn btn-warning" onclick="display.value = eval(
+                        display.value)">
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
